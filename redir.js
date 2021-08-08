@@ -3,9 +3,9 @@ var md = document.URL.split("/")[3];
 var id = document.URL.split("/")[4];
 
 if (md == 'deep') {
-  var redir = 'http://s.click.aliexpress.com/deep_link.htm?aff_short_key=_Aar7tj&dl_target_url=https://www.aliexpress.com/item/'+id;
+  var redir = 'http://s.click.aliexpress.com/deep_link.htm?aff_short_key=_ACEKCQ&dl_target_url=https://www.aliexpress.com/item/'+id;
 } else {
-  var redir = 'https://s.click.aliexpress.com/e/_Aar7tj';
+  var redir = 'https://s.click.aliexpress.com/e/_ACEKCQ';
 }
 
 window.location = redir;
